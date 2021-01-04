@@ -4,7 +4,7 @@ metadata:
   labels:
     run: nginx
   name: my-nginx1231
-  namespace: default
+  namespace: flux-system
 spec:
   containers:
   - image: nginx
